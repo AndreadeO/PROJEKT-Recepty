@@ -17,6 +17,140 @@ body {
 	color: silver;
 }
 
+h1, h2 { 
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	margin: 0;
+}
+
+h3 { 
+	margin: 0;
+}
+
+h1 { 
+	font-size: 28px;
+}
+
+h2 { 
+	font-size: 18px;
+}
+
+p {
+	margin: 0;
+	font-weight: 400;
+}
+
+.item {
+	padding: 10px;
+	background-size: cover;
+	background-position: center;
+	border-bottom: 3px solid white;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.item--2,
+.item--3,
+.item--4,
+.item--5 { 
+	min-height: 90px;
+}
+
+.item--1 { 
+	background-image: url(images/salat.jpg);
+	min-height: 200px;
+}
+
+.item--2 { 
+	background-image: url(images/chlebicek.jpg);
+}
+
+.item--3 { 
+	background-image: url(images/tacos.jpg);
+}
+
+.item--4 { 
+	background-image: url(images/cizrna.jpg);
+}
+
+.item--5 { 
+	background-image: url(images/burger.jpg);
+}
+
+
+
+.item__top {
+	display: flex;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	justify-content: space-between;
+}
+
+@media screen and (min-width: 480px) {
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.wrapper--small1 {
+		display: flex;
+	}
+
+	.wrapper--small2 {
+		display: flex;
+	}
+
+	.item--1 { 
+		min-height: 250px;
+	}
+	
+	.item--2,
+	.item--3,
+	.item--4,
+	.item--5 { 
+		min-height: 150px;
+	}
+	
+	.item {
+		padding: 20px;	
+	}
+	
+	h1 { 
+		font-size: 36px;
+	}
+	
+	h2 { 
+		font-size: 22px;
+	}
+	
+
+}
+
+@media screen and (min-width: 860px) {
+	.item--1 { 
+		min-height: 400px;
+	}
+	
+	.item--2,
+	.item--3,
+	.item--4,
+	.item--5 { 
+		min-height: 200px;
+}
+
+	h1 { 
+		font-size: 48px;
+	}
+
+	h2 { 
+		font-size: 28px;
+	}
+	
+}
 /* -------------------------------------------------- */
 
 /*
